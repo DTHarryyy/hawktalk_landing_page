@@ -9,7 +9,7 @@ import { ExampleChips } from '../components/landing/ExampleChips';
 import { StudentFeatures } from '../components/landing/StudentFeatures';
 import { ForUniversity } from '../components/landing/ForUniversity';
 import { FAQ } from '../components/landing/FAQ';
-import { TechStack, Team } from '../components/landing/TechTeam';
+import { Team } from '../components/landing/TechTeam';
 import { FinalCTA } from '../components/landing/FinalCTA';
 import { seo } from '../data/site';
 
@@ -27,7 +27,6 @@ export default function LandingPage() {
         <StudentFeatures />
         <ForUniversity />
         <FAQ />
-        <TechStack />
         <Team />
         <FinalCTA />
       </main>

@@ -1,30 +1,27 @@
-import { brand, techStack, team } from '../../data/site';
-import { Icon } from '../Icon';
+import { useState } from 'react';
+import { brand, team, type TeamMember } from '../../data/site';
 import { Reveal } from '../Reveal';
 
-export function TechStack() {
+function MemberAvatar({ member }: { member: TeamMember }) {
+  const [failed, setFailed] = useState(false);
+
+  if (member.avatar && !failed) {
+    return (
+      <img
+        className="member-avatar"
+        src={member.avatar}
+        alt=""
+        loading="lazy"
+        decoding="async"
+        onError={() => setFailed(true)}
+      />
+    );
+  }
+
   return (
-    <section className="section section-tint" aria-labelledby="tech-title">
-      <div className="container">
-        <Reveal className="section-head">
-          <span className="eyebrow">Technology</span>
-          <h2 id="tech-title" className="section-title">
-            Built on a modern stack
-          </h2>
-        </Reveal>
-        <div className="tech">
-          {techStack.map((t, i) => (
-            <Reveal key={t.name} className="card tech-card" delay={i * 90}>
-              <span className="icon-tile">
-                <Icon name={t.icon} size={22} />
-              </span>
-              <h3>{t.name}</h3>
-              <p>{t.text}</p>
-            </Reveal>
-          ))}
-        </div>
-      </div>
-    </section>
+    <span className="member-avatar" aria-hidden="true">
+      {member.initials}
+    </span>
   );
 }
 
@@ -44,9 +41,7 @@ export function Team() {
         <ul className="team">
           {team.members.map((m, i) => (
             <Reveal as="li" key={m.name} className="card member" delay={i * 90}>
-              <span className="member-avatar" aria-hidden="true">
-                {m.initials}
-              </span>
+              <MemberAvatar member={m} />
               <h3>{m.name}</h3>
               <p>{m.role}</p>
             </Reveal>

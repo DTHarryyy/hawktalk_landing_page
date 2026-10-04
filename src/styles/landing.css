@@ -755,27 +755,23 @@
   gap: 20px;
 }
 .benefit,
-.feature,
-.tech-card {
+.feature {
   padding: 28px;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s;
 }
 .benefit:hover,
-.feature:hover,
-.tech-card:hover {
+.feature:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow);
   border-color: #cfe0d2;
 }
 .benefit h3,
-.feature h3,
-.tech-card h3 {
+.feature h3 {
   font-size: 1.15rem;
   margin: 18px 0 8px;
 }
 .benefit p,
-.feature p,
-.tech-card p {
+.feature p {
   color: var(--text-2);
   font-size: 0.97rem;
 }
@@ -1370,12 +1366,7 @@
   color: var(--text-2);
 }
 
-/* ================= Tech & team ================= */
-.tech {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
+/* ================= Team ================= */
 .team {
   list-style: none;
   padding: 0;
@@ -1401,6 +1392,11 @@
   background: linear-gradient(135deg, var(--yellow), #cfe7c4);
   box-shadow: 0 0 0 6px var(--green-50);
 }
+img.member-avatar {
+  display: block;
+  object-fit: cover;
+  background: var(--green-50);
+}
 .member h3 {
   font-size: 1.1rem;
 }
@@ -1409,7 +1405,6 @@
   margin-top: 4px;
 }
 @media (max-width: 860px) {
-  .tech,
   .team {
     grid-template-columns: 1fr;
   }

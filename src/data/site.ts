@@ -297,30 +297,19 @@ export const faqs = [
   },
 ];
 
-export const techStack = [
-  {
-    icon: 'smartphone',
-    name: 'Flutter & Dart',
-    text: 'One codebase for the web app and Android.',
-  },
-  {
-    icon: 'database',
-    name: 'Supabase',
-    text: 'Authentication, database, storage, and backend functions.',
-  },
-  {
-    icon: 'brain',
-    name: 'Artificial Intelligence',
-    text: 'Conversational assistance and document understanding.',
-  },
-];
+export type TeamMember = {
+  name: string;
+  role: string;
+  initials: string;
+  avatar?: string;
+};
 
-export const team = {
+export const team: { program: string; members: TeamMember[] } = {
   program: 'BSIT, Major in Programming',
   members: [
-    { name: 'Shammyr Kushley P. Torrejas', role: 'Lead Developer', initials: 'ST' },
-    { name: 'Maria Lyka Joyce M. Antonio', role: 'UI/UX & Front-End Developer', initials: 'MA' },
-    { name: 'Mark Limuel R. Orteza', role: 'Back-End & Data', initials: 'MO' },
+    { name: 'Shammyr Kushley P. Torrejas', role: 'Lead Developer', initials: 'ST', avatar: 'shamyrr.png' },
+    { name: 'Maria Lyka Joyce M. Antonio', role: 'UI/UX & Front-End Developer', initials: 'MA', avatar: 'lyka.jpg' },
+    { name: 'Mark Lemuel R. Orteza', role: 'Back-End & Data', initials: 'MO', avatar: 'ml.jpg' },
   ],
 };
 

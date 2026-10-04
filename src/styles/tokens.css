@@ -1,0 +1,37 @@
+:root {
+  /* Brand */
+  --green-900: #0f5812; /* deep icon green */
+  --green-800: #1b5e20; /* primary */
+  --green-700: #2d6a4f; /* secondary */
+  --yellow: #ffefa2; /* accent */
+  --green-50: #eaf5ee; /* soft tint */
+
+  /* Surfaces */
+  --bg: #f4f7f5;
+  --surface: #ffffff;
+  --border: #e2ebe3;
+  --border-2: #e7ece8;
+
+  /* Text */
+  --text: #111411;
+  --text-2: #555e56;
+  --muted: #6a746d;
+
+  /* Status */
+  --error: #e53935;
+  --warning: #ffa726;
+
+  --wordmark: linear-gradient(90deg, #1b5e20 0%, #4f8a2b 45%, #c9c56a 80%, #ffefa2 100%);
+  --wordmark-dark: linear-gradient(90deg, #ffffff 0%, #ffefa2 100%);
+
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 24px;
+  --shadow-sm: 0 1px 2px rgba(17, 20, 17, 0.05), 0 1px 3px rgba(17, 20, 17, 0.06);
+  --shadow: 0 6px 24px -8px rgba(15, 88, 18, 0.18), 0 2px 6px rgba(17, 20, 17, 0.05);
+  --shadow-lg: 0 30px 60px -20px rgba(15, 88, 18, 0.35), 0 10px 20px -10px rgba(17, 20, 17, 0.12);
+
+  --font: 'Urbanist', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --container: 1180px;
+  --nav-h: 68px;
+}

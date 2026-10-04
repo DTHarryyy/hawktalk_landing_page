@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Registrar's Office (placeholder illustration)">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe7d6"/><stop offset="1" stop-color="#EAF5EE"/></linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#sky)"/>
+  <circle cx="540" cy="70" r="34" fill="#FFEFA2"/>
+  <ellipse cx="120" cy="290" rx="180" ry="60" fill="#2D6A4F" opacity=".35"/>
+  <ellipse cx="560" cy="300" rx="200" ry="70" fill="#2D6A4F" opacity=".3"/>
+  <rect x="150" y="120" width="340" height="180" fill="#fff" stroke="#E2EBE3" stroke-width="4"/><rect x="150" y="105" width="340" height="22" fill="#1B5E20"/><g fill="#B9D3BF"><rect x="175" y="150" width="50" height="40"/><rect x="245" y="150" width="50" height="40"/><rect x="345" y="150" width="50" height="40"/><rect x="415" y="150" width="50" height="40"/><rect x="175" y="215" width="50" height="40"/><rect x="415" y="215" width="50" height="40"/></g><rect x="290" y="215" width="60" height="85" fill="#2D6A4F"/><rect x="275" y="125" width="90" height="16" rx="3" fill="#FFEFA2"/>
+  <rect y="300" width="640" height="60" fill="#6A746D"/>
+  <rect x="270" y="300" width="100" height="60" fill="#E7ECE8"/>
+  <g fill="#1B5E20"><circle cx="70" cy="250" r="34"/><rect x="66" y="270" width="8" height="34"/><circle cx="580" cy="245" r="38"/><rect x="576" y="268" width="8" height="36"/></g>
+  <rect x="16" y="16" rx="12" width="210" height="44" fill="#fff" opacity=".92"/>
+  <text x="32" y="44" font-family="Urbanist,Arial,sans-serif" font-size="18" font-weight="700" fill="#1B5E20">Registrar's Office</text>
+  <text x="620" y="346" text-anchor="end" font-family="Arial,sans-serif" font-size="12" fill="#fff" opacity=".85">PLACEHOLDER PHOTO</text>
+</svg>

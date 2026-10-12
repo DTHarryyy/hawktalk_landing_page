@@ -307,9 +307,9 @@ export type TeamMember = {
 export const team: { program: string; members: TeamMember[] } = {
   program: 'BSIT, Major in Programming',
   members: [
-    { name: 'Shammyr Kushley P. Torrejas', role: 'Lead Developer', initials: 'ST', avatar: 'shamyrr.png' },
-    { name: 'Maria Lyka Joyce M. Antonio', role: 'UI/UX & Front-End Developer', initials: 'MA', avatar: 'lyka.jpg' },
-    { name: 'Mark Lemuel R. Orteza', role: 'Back-End & Data', initials: 'MO', avatar: 'ml.jpg' },
+    { name: 'Shammyr Kushley P. Torrejas', role: '', initials: 'ST', avatar: 'shamyrr.png' },
+    { name: 'Maria Lyka Joyce M. Antonio', role: '', initials: 'MA', avatar: 'lyka.jpg' },
+    { name: 'Mark Lemuel R. Orteza', role: '', initials: 'MO', avatar: 'ml.jpg' },
   ],
 };
 
